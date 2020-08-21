@@ -1,0 +1,81 @@
+*{font-family: sans-serif;
+  box-sizing: content-box;}
+
+.title-container {
+  width: 80%;
+  height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 175%;
+}
+
+.Mines-Nancy-title{
+  width:60%;
+  float:right;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 90%;
+  float:right;
+}
+
+.Mines-Nancy{
+  background-color: white;
+  margin:10px;
+  border:2px solid #075A03;
+}
+
+.titre-encadrement{
+  background-color: burlywood;
+  margin:10px;
+  border:2px solid black;
+}
+.text{
+  margin:10px;
+  margin-top:40px;
+  clear:both;
+}
+
+.row {
+  width: 90%;
+  border: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  padding:5px;
+}
+   
+#Energie{background-color: #CF2A14; color:white;}
+#Génie-Industriel-et-Mathématiques-Appliquées{background-color: #1484CF; color:white;}
+#Informatique{background-color: #8CCF14;color:white;}
+   
+
+/********** Desktop **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    background-color: white;
+    width: 33.33%;
+  }
+}
+
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+    background-color: white;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Mobile **********/
+@media (max-width: 767px) {.col-sm-12 {
+    float: left;
+    background-color: white;
+    width: 100%;}
+}
